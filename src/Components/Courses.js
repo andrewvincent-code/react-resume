@@ -1,0 +1,25 @@
+import React from "react"
+import Typography from '@material-ui/core/Typography';
+import UniversityCoursework from './CourseComponents/UniversityCoursework'
+import OutsideCoursework from './CourseComponents/OutsideCoursework.js'
+
+
+function Courses(){
+  return(
+    <div>
+      <Typography variant="h6">
+      University Coursework<br/><hr style={{width:"100%"}}/>
+      </Typography>
+      <UniversityCoursework/>
+      <br/><br/>
+
+      <Typography variant="h6">
+      Outside Coursework<br/><hr style={{width:"100%"}}/>
+      </Typography>
+      <OutsideCoursework/>
+      <br/><br/>
+    </div>
+  )
+}
+
+export default Courses
