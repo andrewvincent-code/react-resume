@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Header() {
+function Header() {
   const classes = useStyles();
 
   return (
@@ -31,6 +31,7 @@ export default function Header() {
             Andrew Vincent
           </Typography>
 
+          {/*Github Link Chip */}
           <Chip variant="outlined" size="medium" avatar={<GitHubIcon/>} label="GitHub"
           onClick={()=>{window.open("https://github.com/andrewvincent-code"), "_blank"}}/>
         </Toolbar>
@@ -38,3 +39,5 @@ export default function Header() {
     </div>
   );
 }
+
+export default Header;

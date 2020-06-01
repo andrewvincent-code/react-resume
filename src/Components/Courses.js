@@ -10,13 +10,13 @@ function Courses(){
       <Typography variant="h6">
       University Coursework<br/><hr style={{width:"100%"}}/>
       </Typography>
-      <UniversityCoursework/>
+      <UniversityCoursework/> {/*Calling another component that holds all the chips for university courses*/}
       <br/><br/>
 
       <Typography variant="h6">
       Outside Coursework<br/><hr style={{width:"100%"}}/>
       </Typography>
-      <OutsideCoursework/>
+      <OutsideCoursework/> {/*Component that holds all the chips for outside courses */}
       <br/><br/>
     </div>
   )

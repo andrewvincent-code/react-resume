@@ -40,14 +40,16 @@ function WorkExperience(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-      <InfoButton
-        title="View Details"
-        modalHeader="Technocrat Intern at VDart Digital Inc"
-        modalContent1="Did a remote summer internship where I learned and implemented multiple Javascript frameworks such as ReactJS and learned style frameworks such as Material UI"
-        modalContent2="Will also be learning frameworks such as MeteorJS and React Native"
-        />
+        {/* Calling the modal component and passing specific props to it based on this card*/}
+        <InfoButton
+          title="View Details"
+          modalHeader="Technocrat Intern at VDart Digital Inc"
+          modalContent1="Did a remote summer internship where I learned and implemented multiple Javascript frameworks such as ReactJS and learned style frameworks such as Material UI"
+          modalContent2="Will also be learning frameworks such as MeteorJS and React Native"
+          />
       </CardActions>
     </Card>
+    
     <br/>
     <br/>
     <br/>
@@ -70,12 +72,13 @@ function WorkExperience(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-      <InfoButton
-        title="View Details"
-        modalHeader="Assistant Lab Supervisor at Rutgers Office of Information Technology"
-        modalContent1="Currently teaching classes on MacOS, holding training sessions to educate new consultants on how to perform MAC authentication bypasses, wireless surveys, and how to troubleshoot devices. "
-        modalContent2="Performed various tech services for students and faculty around the university such as: device set-up on the Rutgers University secure server through MAC Authentication Bypass, wireless signal strength surveys, and basic troubleshooting of devices such as phones, laptops, and printers."
-        />
+        {/* Calling the modal component and passing specific props to it based on this card*/}
+        <InfoButton
+          title="View Details"
+          modalHeader="Assistant Lab Supervisor at Rutgers Office of Information Technology"
+          modalContent1="Currently teaching classes on MacOS, holding training sessions to educate new consultants on how to perform MAC authentication bypasses, wireless surveys, and how to troubleshoot devices. "
+          modalContent2="Performed various tech services for students and faculty around the university such as: device set-up on the Rutgers University secure server through MAC Authentication Bypass, wireless signal strength surveys, and basic troubleshooting of devices such as phones, laptops, and printers."
+          />
       </CardActions>
     </Card>
   </div>

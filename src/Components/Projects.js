@@ -26,6 +26,9 @@ function Projects(props) {
   const classes = useStyles();
   return (
   <div>
+
+    {/*Creating different cards that hold information about the different projects*/}
+
     <Card className={classes.root} style={{position:"relative"}}>
       <CardActionArea>
         <CardContent>

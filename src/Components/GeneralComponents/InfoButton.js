@@ -8,19 +8,16 @@ import MuiDialogActions from '@material-ui/core/DialogActions';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 
+
+//Style for the modal
 const styles = (theme) => ({
   root: {
     margin: 0,
     padding: theme.spacing(2),
-  },
-  closeButton: {
-    position: 'absolute',
-    right: theme.spacing(1),
-    top: theme.spacing(1),
-    color: theme.palette.grey[500],
-  },
+  }
 });
 
+//How the modal is displayed on the screen with information
 const DialogTitle = withStyles(styles)((props) => {
   const { children, classes, onClose, ...other } = props;
   return (
@@ -35,12 +32,14 @@ const DialogTitle = withStyles(styles)((props) => {
   );
 });
 
+//Content styling
 const DialogContent = withStyles((theme) => ({
   root: {
     padding: theme.spacing(2),
   },
 }))(MuiDialogContent);
 
+//Styling for responsive actions of the modal
 const DialogActions = withStyles((theme) => ({
   root: {
     margin: 0,
@@ -48,6 +47,9 @@ const DialogActions = withStyles((theme) => ({
   },
 }))(MuiDialogActions);
 
+//This function recieves information that was sent to it such as:
+//Open Button Text, Modal Title, and two sections of modal content
+//Following the process of the Material UI modal it opens a dialog box 
 function InfoButton(props) {
   const [open, setOpen] = React.useState(false);
 
