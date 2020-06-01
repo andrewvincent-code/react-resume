@@ -58,7 +58,7 @@ export default function ControlledExpansionPanels() {
             </Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
-            <General/> //Calling a component that holds all the content of General Information
+            <General/> {/*Calling a component that holds all the content of General Information*/}
           </ExpansionPanelDetails>
         </ExpansionPanel>
 
