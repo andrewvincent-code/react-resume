@@ -27,7 +27,7 @@ function WorkExperience(props) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="https://media-exp1.licdn.com/dms/image/C560BAQG82Q7j1CjaxQ/company-logo_200_200/0?e=1599091200&v=beta&t=npc0i_tKWkJzFjIcs5ZxVd2uHu4uxkXJLlKFLDw2wOg"
+          image="https://vdart.com/wp-content/uploads/2020/03/vdart-digital.svg"
         />
         <CardContent>
           <Typography gutterBottom variant="h6" component="h2">
@@ -58,8 +58,7 @@ function WorkExperience(props) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="https://apprecs.org/ios/images/app-icons/256/85/494594693.jpg"
-          title="Contemplative Reptile"
+          image="https://cdn.worldvectorlogo.com/logos/rutgers-university.svg"
         />
         <CardContent>
           <Typography gutterBottom variant="h6" component="h2">
